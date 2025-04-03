@@ -1,0 +1,41 @@
+/* pages/chat/chat.wxss */
+.chat-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.message-list {
+  flex: 1;
+  padding: 20rpx;
+}
+.user-bubble, .ai-bubble {
+  margin: 20rpx;
+  padding: 20rpx;
+  border-radius: 16rpx;
+  max-width: 70%;
+}
+.user-bubble {
+  background: #07c160;
+  color: white;
+  margin-left: auto;
+}
+.ai-bubble {
+  background: #f0f0f0;
+  margin-right: auto;
+}
+.input-area {
+  padding: 20rpx;
+  display: flex;
+  border-top: 1rpx solid #eee;
+}
+.input-area input {
+  flex: 1;
+  border: 1rpx solid #ddd;
+  padding: 20rpx;
+  margin-right: 20rpx;
+  border-radius: 8rpx;
+}
+.send-btn {
+  background: #07c160;
+  color: white;
+}

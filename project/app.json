@@ -1,0 +1,31 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/upload/upload",
+    "pages/chat/chat"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#2C3E50",
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "智易 Bot",
+    "backgroundColor": "#F8F9FA"
+  },
+  "tabBar": {
+    "color": "#95A5A6",
+    "selectedColor": "#3498DB",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "/images/logo.png",
+        "selectedIconPath": "/images/logo.png"
+      },
+      {
+        "pagePath": "pages/chat/chat",
+        "text": "咨询",
+        "iconPath": "/images/logo.png",
+        "selectedIconPath": "/images/logo.png"
+      }
+    ]
+  }
+}

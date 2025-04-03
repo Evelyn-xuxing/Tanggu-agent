@@ -1,0 +1,47 @@
+<view class="container">
+  <!-- 动态光晕背景 -->
+  <view class="halo-effect"></view>
+  
+  <!-- 主内容区 -->
+  <view class="content">
+    <!-- 3D悬浮LOGO -->
+    <image 
+      src="/images/logo.png" 
+      class="logo-3d"
+      mode="aspectFit"
+    ></image>
+
+    <!-- 核心功能入口 -->
+    <view class="action-buttons">
+      <view 
+        class="btn scan-btn" 
+        bindtap="navToUpload"
+        hover-class="btn-hover"
+      >
+        <text class="icon">📷</text>
+        <text class="text">智能扫描估价</text>
+      </view>
+      
+      <view 
+        class="btn manage-btn"
+        bindtap="navToManage"
+        hover-class="btn-hover"
+      >
+        <text class="icon">📦</text>
+        <text class="text">闲置物品管理</text>
+      </view>
+    </view>
+
+    <!-- 数据看板 -->
+    <view class="dashboard">
+      <view class="data-card">
+        <text class="value">0</text>
+        <text class="label">待处理物品</text>
+      </view>
+      <view class="data-card">
+        <text class="value">0</text>
+        <text class="label">累计估值(元)</text>
+      </view>
+    </view>
+  </view>
+</view>

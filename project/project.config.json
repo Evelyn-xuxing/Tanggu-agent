@@ -1,0 +1,32 @@
+{
+  "miniprogramRoot": "",
+  "setting": {
+    "urlCheck": true,
+    "es6": true,
+    "enhance": true,
+    "postcss": true,
+    "minified": true,
+    "newFeature": true,
+    "babelSetting": {
+      "ignore": [],
+      "disablePlugins": [],
+      "outputPath": ""
+    }
+  },
+  "libVersion": "2.26.1",
+  "appid": "wxd5a7e2a6c24ddb62",
+  "projectname": "智易 bot",
+  "description": "一个帮助处理闲置物品的 AI 助手小程序",
+  "version": "1.0.0",
+  "extra": {},
+  "compileType": "miniprogram",
+  "packOptions": {
+    "ignore": [],
+    "include": []
+  },
+  "condition": {},
+  "editorSetting": {
+    "tabIndent": "insertSpaces",
+    "tabSize": 2
+  }
+}

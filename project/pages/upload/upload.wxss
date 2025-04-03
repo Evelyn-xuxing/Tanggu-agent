@@ -1,0 +1,15 @@
+/* pages/upload/upload.wxss */
+.upload-container {
+  padding: 40rpx;
+  text-align: center;
+}
+.upload-btn {
+  width: 80%;
+  margin: 40rpx auto;
+  background: #07c160;
+  color: white;
+}
+.uploaded-image {
+  margin-top: 40rpx;
+  border-radius: 16rpx;
+}

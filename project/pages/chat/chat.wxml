@@ -1,0 +1,13 @@
+<view class="chat-container">
+    <scroll-view class="message-list" scroll-y="true">
+        <block wx:for="{{messages}}" wx:key="index">
+            <view class="{{item.type === 'user' ? 'user-bubble' : 'ai-bubble'}}">
+                <text>{{item.content}}</text>
+            </view>
+        </block>
+    </scroll-view>
+    <view class="input-area">
+        <input type="text" placeholder="请输入想问的问题..." bindinput="onInput"></input>
+        <button class="send-btn" bindtap="onSend">发送</button>
+    </view>
+</view>

@@ -1,0 +1,17 @@
+<view class="upload-container">
+  <camera device-position="back" flash="off" class="camera"></camera>
+  
+  <view class="control-bar">
+    <button class="capture-btn" bindtap="takePhoto">
+      <image src="/icons/shutter.png"></image>
+    </button>
+    <button class="upload-btn" bindtap="chooseImage">
+      选择图片
+    </button>
+  </view>
+
+  <view class="preview-box" wx:if="{{tempFilePath}}">
+    <image src="{{tempFilePath}}" mode="aspectFit"></image>
+    <button class="confirm-btn" bindtap="confirmUpload">确认上传</button>
+  </view>
+</view>

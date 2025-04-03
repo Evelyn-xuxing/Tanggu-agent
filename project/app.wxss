@@ -1,0 +1,10 @@
+/* app.wxss */
+page {
+  /* 天蓝到深蓝渐变 */
+  background: linear-gradient(
+    160deg, 
+    #87CEEB 0%,    /* 顶部天蓝 */
+    #4682B4 100%   /* 底部钢蓝 */
+  );
+  min-height: 100vh;
+}
